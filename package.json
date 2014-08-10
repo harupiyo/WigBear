@@ -1,0 +1,10 @@
+{
+  "name": "wigbear",
+  "title": "WigBear",
+  "id": "jid1-jYdq6LHzQwkLBQ",
+  "description": "プライベートブラウジングモードをオススメするプラグインです。共有PC へインストールする用途です。",
+  "author": "harupiyo",
+  "license": "MPL 2.0",
+  "version": "0.1",
+  "permissions": {"private-browsing": true}
+}

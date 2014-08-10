@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>プライベートブラウジングモードをお使い下さい</title>
+    <style>
+        body {
+            font-family: YuGothic, '游ゴシック', sans-serif;
+            font-size: large;
+        }
+        
+        img {
+            position: relative;
+            border-radius: 25px;
+            animation: hopping 0.5s cubic-bezier(0.2,0.7,0.2,0.7) 0s infinite alternate;
+        }
+        
+        @keyframes hopping {
+            0% { top: 0px }
+            100% { top: -10px }
+        }
+
+        #content {
+            text-align: center;
+            text-height: 40px;
+            width: 500px;
+            margin: 0 auto;
+            padding: 20px;
+            background-image: -moz-linear-gradient(top, #e8FFeC 80%, #F1FFFC);
+            box-shadow: rgba(0,0,0,.15) 0 0 2px;
+        }
+        
+        .highlight {
+            display: inline-block;
+            padding-left: 0.5em;
+            padding-right: 0.5em;
+            border-radius: 1em;
+            background: #FF3399;
+            color: white;
+            font-style: bold;
+        }
+        
+        .marker {
+            text-decoration: underline;
+        }
+        
+        .dagger {
+            font-size: small;
+        }
+        
+        #info {
+            /* 区切り線 */
+            padding-bottom: 30px;
+            border-bottom: 1px solid rgba(0, 0, 0, .1);
+            box-shadow: rgba(255, 255, 255, .9) 0 1px 0;
+        }
+    </style>
+</head>
+<body>
+<div id="content">
+    <h1>\ごあんない/</h1>
+    <img src="7432284676_0b0240eba8_q.jpg">
+    <p id="info">
+        <span class="marker">https:// から始まるURL</span> の時は、設定の保存されない<span class="highlight">プライベートブラウジングモード</span>をお使い下さい。<br>
+    </p>
+    <p class="dagger">
+        <a href="https://support.mozilla.org/ja/kb/private-browsing-browse-web-without-saving-info" target="_blank">プライベートブラウジングモードについて</a>
+    </p>
+</div>
+</body>
+</html>
